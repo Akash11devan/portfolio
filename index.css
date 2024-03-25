@@ -1,0 +1,264 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+ body{
+  background-color: rgb(204, 146, 240);
+ }
+ .linkitem a{
+  text-decoration: none ;
+ }
+ .sidebar{
+    
+    position: absolute;
+    background-color: rgb(123, 50, 168);
+    font-family: "Teko", sans-serif;
+    height: 100vh;
+    transition:transform 0.3s ease-in;
+    
+ }
+ .sidebar nav{
+    padding: 10px;
+ }
+ .sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+ }
+ .sidebar nav li a{
+   text-decoration: none;
+   color: white;
+ }
+ .main{
+    width: 90vw;
+    
+ }
+ .container{
+    display:flex;
+ }
+
+ .infocontainer{
+    height:60vh;
+    width:85vh;
+    margin: 144px auto; 
+    display: flex;
+    justify-content: space-around;    
+     
+ }
+
+ .devinfo{
+   display: flex;
+   align-items: start;
+   justify-content: center;
+   flex-direction: column;
+  
+ }
+
+ .hello{
+     
+    font-size: 80px;
+    font-family: "Mukta", sans-serif;
+ }
+ .name{
+   font-size: 60px;
+   font-weight: bold;
+   font-family: "Mukta", sans-serif;
+ }
+ .about{
+   font-size: 50px;
+   font-family: "Mukta", sans-serif;
+ }
+ .moreabout{
+   font-size: 22px;
+   font-family: "Mukta", sans-serif;
+ }
+
+ .button{
+   margin-top: 34px;
+ }
+ .btn{
+   padding: 9px 14px;
+   border-radius: 22px;
+   color: white;
+   background-color: rgb(123, 50, 168)  ;
+   font-weight: bold;
+   font-size: 21px;
+   margin: 03px;
+ }
+ .btn:hover{
+   background-color: white;
+   color: grey;
+ }
+
+  
+ .contactform{
+   font-family: "Mukta", sans-serif;
+   padding: 0 34px;
+   margin: 0 88px;
+
+ }
+ .contactform h1{
+
+   font-family: "Teko", sans-serif;
+   text-align: center;
+   padding-top: 130px;
+   
+ }
+
+ .contactform div{
+   padding: 10px 0;
+   display: flex;
+   flex-direction: column;
+ }
+ .contactform div input{
+   width: 26vw;
+   border-radius: 5px;
+   margin: 6px 0 0 0;
+   padding: 3px;
+ }
+ #emailHelp{
+
+   font-size: 10px;
+   color: midnightblue;
+   margin: 0 5px;
+ }
+ #formcheck{
+   flex-direction: row;
+ }
+
+ #formcheck input{
+   width: 24px;
+   margin: 3px 0;
+ }
+ .blogcontainer{
+
+  margin: 0 88px;
+ }
+.blogcontainer h1{
+   font-family: "Teko", sans-serif;
+   margin: 23px;
+ }
+
+ .blogitem{
+   margin: 20px;
+   font-family: "Mukta", sans-serif;
+ }
+
+ .blogitem h2{
+   font-family: "Teko", sans-serif;
+
+ }
+
+ .blogitem p{
+   font-family: "Mukta", sans-serif;
+   
+
+ }
+
+ .intro{
+  margin: 0 88px;
+ }
+
+ .intro h2{
+   font-family: "Teko", sans-serif;
+   margin: 12px;
+
+ }
+
+ .intro p{
+   font-family: "Mukta", sans-serif;
+   margin:12px;
+
+ }
+
+ .skillcontainer{
+   padding: 12px;
+ }
+  
+ .skill{
+   width: 265px;
+   height: 6px;
+   background-color: red;
+ }
+
+ .skillitem{
+   font-family: "Mukta", sans-serif;
+   font-weight: 900px;
+   display: flex;
+   align-items: center;
+   padding: 5px;
+ }
+  
+ .social h2{
+  font-family: "Teko", sans-serif;
+  margin: 12px;
+ }
+
+ .social{
+  padding: 12px;
+}
+
+ .linkitem{
+  font-family: "Mukta", sans-serif;
+  font-weight: 900px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+ }
+
+ .t5{
+   width: 265px;
+   background-color: rgb(58, 238, 58);
+ }
+ .t6{
+   width:200px;
+   background-color: blueviolet;
+ }
+
+ .hamburg{
+  position: absolute;
+  cursor: pointer;
+  top:10px;
+  left: 10px;
+  margin-top: 3px;
+    
+ }
+ .cross{
+
+  margin-left: 50px;
+  margin-top: 3px;
+    
+ }
+ .sidebarGo{
+  transform:translate(-443px,0);
+  position: absolute;
+ }
+ 
+
+ @media(max-width:943px){
+
+ }
+
+ .servicecontainer{
+    margin: 0 88px;
+    padding: 12px;
+ }
+
+ .servicecontainer h2{
+  font-family: "Teko", sans-serif;
+  margin: 12px;
+
+ }
+
+ .servicecontainer p{
+  font-family: "Mukta", sans-serif;
+  margin:12px;
+ }
+ .servicecontainer h1{
+  font-family: "Teko", sans-serif;
+ }
